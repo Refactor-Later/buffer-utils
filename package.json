@@ -9,7 +9,8 @@
 		"./lib"
 	],
 	"scripts": {
-		"build": "tsc --project tsconfig.build.json"
+		"build": "tsc --project tsconfig.build.json",
+		"lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
 	},
 	"author": "Refactor-Later",
 	"license": "MIT",
