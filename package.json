@@ -2,7 +2,12 @@
 	"name": "buffer-utils",
 	"version": "0.0.1",
 	"description": "Util functions and classes for working with node.js buffers.",
-	"main": "dist/index.js",
+	"type": "module",
+	"main": "./lib/index.js",
+	"typings": "./lib/index.d.ts",
+	"files": [
+		"./lib"
+	],
 	"scripts": {},
 	"author": "Refactor-Later",
 	"license": "MIT",
