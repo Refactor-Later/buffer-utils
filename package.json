@@ -8,7 +8,9 @@
 	"files": [
 		"./lib"
 	],
-	"scripts": {},
+	"scripts": {
+		"build": "tsc --project tsconfig.build.json"
+	},
 	"author": "Refactor-Later",
 	"license": "MIT",
 	"devDependencies": {
