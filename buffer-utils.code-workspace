@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "Buffer utils",
+			"path": "."
+		}
+	],
+	"settings": {},
+	"extensions": {
+		"recommendations": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode", "zixuanchen.vitest-explorer"]
+	}
+}
