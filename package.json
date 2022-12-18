@@ -5,5 +5,9 @@
 	"main": "dist/index.js",
 	"scripts": {},
 	"author": "Refactor-Later",
-	"license": "MIT"
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^18.11.17",
+		"typescript": "^4.9.4"
+	}
 }
