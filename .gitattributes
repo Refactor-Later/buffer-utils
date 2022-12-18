@@ -1,0 +1,60 @@
+# These files are text and should be normalized
+* text eol=lf
+
+*.code-workspace text
+*.ini text
+*.md text
+.editorconfig text
+README text
+
+*.php text
+*.css text
+*.js text
+*.mjs text
+*.cjs text
+*.jsx text
+*.ts text
+*.mts text
+*.cts text
+*.tsx text
+*.json text
+*.yml text
+*.htm text
+*.html text
+*.xml text
+*.txt text
+*.ini text
+*.inc text
+*.pl text
+*.rb text
+*.py text
+*.scm text
+*.sql text
+.htaccess text
+*.sh text
+*.env text
+*.vue text
+
+*.c text
+*.cpp text
+*.h text
+*.hpp text
+*.hxx text
+
+# These files are binary and should be left untouched
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mov binary
+*.mp4 binary
+*.mp3 binary
+*.flv binary
+*.fla binary
+*.swf binary
+*.gz binary
+*.zip binary
+*.7z binary
+*.ttf binary
+*.pyc binary
