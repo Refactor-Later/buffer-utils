@@ -1,0 +1,20 @@
+{
+  "trailingComma": "none",
+  "tabWidth": 4,
+  "semi": true,
+  "singleQuote": false,
+  "useTabs": true,
+  "quoteProps": "consistent",
+  "arrowParens": "always",
+  "endOfLine": "lf",
+  "printWidth": 120,
+  "overrides": [
+    {
+      "files": ["*.yml", "*.json", "*.code-workspace"],
+      "options": {
+        "tabWidth": 2,
+        "useTabs": true
+      }
+    }
+  ]
+}
