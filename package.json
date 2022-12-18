@@ -10,6 +10,9 @@
 	],
 	"scripts": {
 		"build": "tsc --project tsconfig.build.json",
+		"test": "vitest",
+		"test:run": "vitest run",
+		"test:coverage": "vitest run --coverage",
 		"lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
 	},
 	"author": "Refactor-Later",
