@@ -1,5 +1,5 @@
 {
-	"name": "buffer-utils",
+	"name": "@galaxy-ships/buffer-utils",
 	"version": "0.0.1",
 	"description": "Util functions and classes for working with node.js buffers.",
 	"type": "module",
@@ -15,7 +15,7 @@
 		"test:coverage": "vitest run --coverage",
 		"lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
 	},
-	"author": "Refactor-Later",
+	"author": "missing-semicolon",
 	"license": "MIT",
 	"devDependencies": {
 		"@types/node": "^18.11.17",
